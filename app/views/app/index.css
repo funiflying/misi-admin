@@ -1,0 +1,42 @@
+.ant-layout-aside .ant-layout-main {
+  margin-left: 224px;
+}
+.ant-layout-aside .ant-layout-main .ant-layout-content {
+  padding: 24px;
+}
+.good-list:not(:last-child) {
+  border-bottom: 1px solid #dedede;
+  margin-bottom: 5px;
+}
+.good-list img {
+  width: 100%;
+}
+.order-table table td {
+  vertical-align: text-top;
+}
+.avatar {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #dedede;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.ant-advanced-search-form {
+  padding: 24px;
+  background: #fbfbfb;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+.thumbnail {
+  max-width: 300px;
+  display: block;
+  padding: 4px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: border 0.2s ease-in-out;
+  -o-transition: border 0.2s ease-in-out;
+  transition: border 0.2s ease-in-out;
+}

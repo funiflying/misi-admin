@@ -1,0 +1,134 @@
+{
+	"_id" : ObjectId("582bb7b62b6e99205805ba5b"),
+	"name" : "我的首页",
+	"url" : "/admin/home",
+	"serial" : 0,
+	"menu" : ObjectId("582bb21d2b6e99205805ba2e")
+},
+{
+	"_id" : ObjectId("582bb7b62b6e99205805ba5d"),
+	"name" : "分组管理",
+	"url" : "/admin/menu/list",
+	"serial" : 0,
+	"menu" : ObjectId("582bb21d2b6e99205805ba2f")
+},
+{
+	"_id" : ObjectId("582bb7b62b6e99205805ba5e"),
+	"name" : "新建分组",
+	"url" : "/admin/menu/create",
+	"serial" : 1,
+	"menu" : ObjectId("582bb21d2b6e99205805ba2f")
+},
+{
+	"_id" : ObjectId("582bb7b62b6e99205805ba5f"),
+	"name" : "导航管理",
+	"url" : "/admin/navigation/list",
+	"serial" : 2,
+	"menu" : ObjectId("582bb21d2b6e99205805ba2f")
+},
+{
+	"_id" : ObjectId("582bb7b62b6e99205805ba60"),
+	"name" : "新建导航",
+	"url" : "/admin/navigation/create",
+	"serial" : 3,
+	"menu" : ObjectId("582bb21d2b6e99205805ba2f")
+},
+{
+	"_id" : ObjectId("582bb7b62b6e99205805ba61"),
+	"name" : "角色管理",
+	"url" : "/admin/part/list",
+	"serial" : 0,
+	"menu" : ObjectId("582bb21d2b6e99205805ba30")
+},
+{
+	"_id" : ObjectId("582bb7b62b6e99205805ba62"),
+	"name" : "新增角色",
+	"url" : "/admin/part/create",
+	"serial" : 1,
+	"menu" : ObjectId("582bb21d2b6e99205805ba30")
+},
+{
+	"_id" : ObjectId("582bb7b62b6e99205805ba63"),
+	"name" : "用户管理",
+	"url" : "/admin/user/list",
+	"serial" : 2,
+	"menu" : ObjectId("582bb21d2b6e99205805ba30")
+},
+{
+	"_id" : ObjectId("582bb7b62b6e99205805ba64"),
+	"name" : "新增用户",
+	"url" : "/admin/user/create",
+	"serial" : 3,
+	"menu" : ObjectId("582bb21d2b6e99205805ba30")
+},
+{
+	"_id" : ObjectId("582bb7b62b6e99205805ba65"),
+	"name" : "商品分类",
+	"url" : "/admin/category/list",
+	"serial" : 0,
+	"menu" : ObjectId("582bb21d2b6e99205805ba31")
+},
+{
+	"_id" : ObjectId("582bb7b62b6e99205805ba66"),
+	"name" : "新增分类",
+	"url" : "/admin/category/create",
+	"serial" : 1,
+	"menu" : ObjectId("582bb21d2b6e99205805ba31")
+},
+{
+	"_id" : ObjectId("582bb7b62b6e99205805ba67"),
+	"name" : "商品管理",
+	"url" : "/admin/product/list",
+	"serial" : 2,
+	"menu" : ObjectId("582bb21d2b6e99205805ba31")
+},
+{
+	"_id" : ObjectId("582bb7b62b6e99205805ba68"),
+	"name" : "新增商品",
+	"url" : "/admin/product/create",
+	"serial" : 3,
+	"menu" : ObjectId("582bb21d2b6e99205805ba31")
+},
+{
+	"_id" : ObjectId("582bb7b62b6e99205805ba69"),
+	"name" : "订单管理",
+	"url" : "/admin/order",
+	"serial" : 0,
+	"menu" : ObjectId("582bb6be2b6e99205805ba3b")
+},
+{
+	"_id" : ObjectId("582d17e18237031c0c0ec4ce"),
+	"name" : "客户管理",
+	"url" : "/admin/customer",
+	"serial" : NumberInt("0"),
+	"menu" : ObjectId("582bb21d2b6e99205805ba32"),
+	"meta" : {
+		"updateAt" : ISODate("2016-11-17T10:30:37.597+08:00"),
+		"createAt" : ISODate("2016-11-17T10:37:21.204+08:00")
+	},
+	"__v" : NumberInt("0")
+},
+{
+	"_id" : ObjectId("582d4ef1850ccd2bb8a87463"),
+	"name" : "BANNER",
+	"url" : "/admin/banner/list",
+	"serial" : NumberInt("0"),
+	"menu" : ObjectId("582d4eb1850ccd2bb8a87462"),
+	"meta" : {
+		"updateAt" : ISODate("2016-11-17T13:59:32.724+08:00"),
+		"createAt" : ISODate("2016-11-17T14:32:17.743+08:00")
+	},
+	"__v" : NumberInt("0")
+},
+{
+	"_id" : ObjectId("582d4f17850ccd2bb8a87464"),
+	"name" : "新增BANNER",
+	"url" : "/admin/banner/create",
+	"serial" : NumberInt("1"),
+	"menu" : ObjectId("582d4eb1850ccd2bb8a87462"),
+	"meta" : {
+		"updateAt" : ISODate("2016-11-17T13:59:32.724+08:00"),
+		"createAt" : ISODate("2016-11-17T14:32:55.709+08:00")
+	},
+	"__v" : NumberInt("0")
+},

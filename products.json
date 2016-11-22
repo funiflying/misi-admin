@@ -1,0 +1,42 @@
+{
+	"_id" : ObjectId("582bc9101f4eab0a00dfc74d"),
+	"name" : "意式特浓",
+	"subtitle" : "Espresso 咖啡之魂",
+	"category" : ObjectId("582bc1350c81011748cd9c8e"),
+	"type" : "浓缩",
+	"material" : "咖啡豆，水",
+	"flavor" : "",
+	"discount" : false,
+	"singkek" : true,
+	"meta" : {
+		"updateAt" : ISODate("2016-11-16T14:27:54.931+08:00"),
+		"createAt" : ISODate("2016-11-16T10:48:48.861+08:00")
+	},
+	"picture" : [
+		"http://ogmknj4mc.bkt.clouddn.com/1479264526324.jpg"
+	],
+	"shelves" : true,
+	"describe" : [
+		{
+			"insert" : "\n"
+		}
+	],
+	"specify" : [
+		{
+			"_id" : ObjectId("582bfc6a66b51e0d5ca06ed1"),
+			"content" : "小杯：300ml",
+			"price" : 9.9
+		},
+		{
+			"_id" : ObjectId("582bfc6a66b51e0d5ca06ed0"),
+			"content" : "中杯：500ml",
+			"price" : NumberInt("13")
+		},
+		{
+			"_id" : ObjectId("582bfc6a66b51e0d5ca06ecf"),
+			"content" : "大杯：750ml",
+			"price" : 19.9
+		}
+	],
+	"__v" : NumberInt("4")
+},

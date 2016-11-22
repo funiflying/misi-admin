@@ -1,0 +1,6 @@
+.panel-box {
+  margin-bottom: 20px;
+}
+.panel-box > .ant-collapse-item > .ant-collapse-header {
+  padding-left: 10px;
+}

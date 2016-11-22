@@ -1,0 +1,197 @@
+*, :after, :before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 auto;
+}
+body {
+  font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Arial,sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #666;
+  background-color: #fff;
+}
+body, html {
+  width: 100%;
+  height: 100%;
+}
+.login-row {
+  height: 100%;
+  background: url(/public/images/7ad014989f5a9822ab81e0ff58d4c193.jpg) no-repeat;
+  background-size: cover;
+  h1 {
+    margin: 80px auto 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    text-shadow: 0 1px 1px #555;
+    display: inline-block;
+    width: 100%;
+  }
+  .login-form-container{
+    height: auto;
+    padding: 50px 0;
+    width: 100%;
+  }
+  .login-form {
+    background: #fff;
+    width: 370px;
+    margin: 0 auto;
+    .header {
+      height: 50px;
+      line-height: 50px;
+      padding-left: 45px;
+      border-bottom: 1px solid #e2e2e2;
+      bottom: 0;
+      font-size: 16px;
+    }
+    .ant-form-horizontal{
+      display: block;
+    }
+    .row {
+      position: relative;
+      margin-left: 0;
+      margin-right: 0;
+      height: auto;
+      display: block;
+    }
+    .row-flex {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    .row-flex, .row-flex:after, .row-flex:before {
+      display: flex;
+    }
+    .row-flex-space-around {
+      justify-content: space-around;
+    }
+    .row-flex-middle {
+      align-items: center;
+    }
+    .ant-form-horizontal {
+      .ant-form-item {
+        position: relative;
+        font-size: 12px;
+        margin-bottom: 24px;
+        color: #666;
+        margin-left: 0;
+        margin-right: 0;
+        height: 40px;
+      }
+      .login-btn{
+        height: 40px;
+      }
+    }
+    .message{
+      text-align: center;
+      color: orange;
+      font-size: 16px;
+    }
+  }
+
+}
+.ant-form-horizontal .ant-form-item, .clearfix, .layout-fixed, .layout-fluid, .row {
+  zoom: 1;
+}
+.login-row .login-form label {
+  font-size: 16px;
+}
+.ant-form-item>label {
+  color: #666;
+  text-align: right;
+  vertical-align: middle;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 10px;
+}
+
+.col-6 {
+  width: 25%;
+}
+.col-14 {
+  width: 58.33333333%;
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-13, .col-14, .col-15, .col-16, .col-17, .col-18, .col-19, .col-20, .col-21, .col-22, .col-23, .col-24 {
+  position: relative;
+  display: block;
+  float: left;
+  flex: 0 0 auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+.ant-form-item-control {
+  line-height: 32px;
+}
+.login-row .login-form input {
+  background: transparent;
+  color: #444;
+  border: 1px solid #d7d7d7;
+  border-radius: 0;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 4px 7px;
+  width: 100%;
+  height: 28px;
+  cursor: text;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.col-offset-6 {
+  margin-left: 25%;
+}
+.col-16 {
+  width: 66.66666667%;
+}
+.login-row .login-form button {
+  border-radius: 0;
+  display: block;
+  width: 220px;
+}
+.ant-btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  line-height: 1.5;
+  padding: 4px 15px;
+  font-size: 12px;
+  border-radius: 6px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all .3s cubic-bezier(.645,.045,.355,1);
+  transition: all .3s cubic-bezier(.645,.045,.355,1);
+  transform: translateZ(0);
+  color: #666;
+  background-color: #f4f4f4;
+  border-color: #d9d9d9;
+}
+.ant-btn-primary {
+color: #fff;
+background-color: #2db7f5;
+border-color: #2db7f5;
+}
+
+.ant-btn-lg {
+padding: 4px 15px 5px;
+font-size: 14px;
+border-radius: 6px;
+}
+.ant-btn, .ant-btn:active, .ant-btn:focus {
+outline: 0;
+}
+
+
+.form-item:after, .ant-form-horizontal .ant-form-item:before, .clearfix:after, .clearfix:before, .layout-fixed:after, .layout-fixed:before, .layout-fluid:after, .layout-fluid:before, .row:after, .row:before {
+  content: " ";
+  display: table;
+}

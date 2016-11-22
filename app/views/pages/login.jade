@@ -1,0 +1,31 @@
+doctype
+html
+    head
+        meta(charset="utf-8")
+        title 美思-用户登录
+        link(href="/style/admin.css",rel="stylesheet")
+    body
+        .login-row
+            h1 MISI后台管理系统
+            .login-form
+                .header 登录
+                .row.row-flex.row-flex-space-around.row-flex-middle
+                    .login-form-container
+                        form.ant-form-horizontal(method="post",action="/login")
+                            .ant-form-item
+                                label.col-6 账户
+                                .col-14
+                                    .ant-form-item-control
+                                        span.ant-input-wrapper
+                                            input.ant-input.ant-input-lg(type="text" ,name="user[name]",value="#{user.name}")
+                            .ant-form-item
+                                label.col-6 密码
+                                .col-14
+                                    .ant-form-item-control
+                                        span.ant-input-wrapper
+                                            input.ant-input.ant-input-lg(type="password" ,name="user[password]",value="#{user.password}")
+                            .row.login-btn
+                                .col-6.col-offset-6
+                                    button.ant-btn.ant-btn-primary.ant-btn-lg(type="submit")
+                                        span 登 录
+                        p.message #{message}

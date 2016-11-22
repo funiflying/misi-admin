@@ -1,0 +1,50 @@
+{
+	"_id" : ObjectId("582b0a0a4c696c75daef9e2a"),
+	"name" : "超级管理员",
+	"access" : [
+		ObjectId("582bb7b62b6e99205805ba5b"),
+		ObjectId("582bb7b62b6e99205805ba5c"),
+		ObjectId("582bb7b62b6e99205805ba5d"),
+		ObjectId("582bb7b62b6e99205805ba5e"),
+		ObjectId("582bb7b62b6e99205805ba5f"),
+		ObjectId("582bb7b62b6e99205805ba60"),
+		ObjectId("582bb7b62b6e99205805ba61"),
+		ObjectId("582bb7b62b6e99205805ba62"),
+		ObjectId("582bb7b62b6e99205805ba63"),
+		ObjectId("582bb7b62b6e99205805ba64"),
+		ObjectId("582bb7b62b6e99205805ba65"),
+		ObjectId("582bb7b62b6e99205805ba66"),
+		ObjectId("582bb7b62b6e99205805ba67"),
+		ObjectId("582bb7b62b6e99205805ba68"),
+		ObjectId("582bb7b62b6e99205805ba69"),
+		ObjectId("582d17e18237031c0c0ec4ce"),
+		ObjectId("582d4ef1850ccd2bb8a87463"),
+		ObjectId("582d4f17850ccd2bb8a87464")
+	],
+	"meta" : {
+		"createAt" : ISODate("2016-11-16T09:44:42.661+08:00"),
+		"updateAt" : ISODate("2016-11-17T14:33:07.086+08:00")
+	},
+	"__v" : NumberInt("4")
+},
+{
+	"_id" : ObjectId("582d48af850ccd2bb8a87461"),
+	"name" : "管理员",
+	"access" : [
+		ObjectId("582bb7b62b6e99205805ba5b"),
+		ObjectId("582bb7b62b6e99205805ba5c"),
+		ObjectId("582bb7b62b6e99205805ba65"),
+		ObjectId("582bb7b62b6e99205805ba66"),
+		ObjectId("582bb7b62b6e99205805ba67"),
+		ObjectId("582bb7b62b6e99205805ba68"),
+		ObjectId("582bb7b62b6e99205805ba69"),
+		ObjectId("582d17e18237031c0c0ec4ce"),
+		ObjectId("582d4ef1850ccd2bb8a87463"),
+		ObjectId("582d4f17850ccd2bb8a87464")
+	],
+	"meta" : {
+		"updateAt" : ISODate("2016-11-17T14:33:16.342+08:00"),
+		"createAt" : ISODate("2016-11-17T14:05:35.977+08:00")
+	},
+	"__v" : NumberInt("1")
+},

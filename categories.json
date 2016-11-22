@@ -1,0 +1,16 @@
+{
+	"_id" : ObjectId("582bc1350c81011748cd9c8e"),
+	"name" : "咖啡",
+	"subtitle" : "Coffee Series",
+	"cover" : "http://ogmknj4mc.bkt.clouddn.com/1479263850578.jpg",
+	"meta" : {
+		"updateAt" : ISODate("2016-11-16T14:27:54.950+08:00"),
+		"createAt" : ISODate("2016-11-16T10:15:17.103+08:00")
+	},
+	"size" : NumberInt("1"),
+	"serial" : NumberInt("0"),
+	"product" : [
+		ObjectId("582bc9101f4eab0a00dfc74d")
+	],
+	"__v" : NumberInt("1")
+},
